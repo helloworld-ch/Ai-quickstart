@@ -1,0 +1,9 @@
+actions_size = 4
+max_memory_size = 2000 # 最大记忆库
+learning_rate = 0.001
+gamma = 0.9 # 贪心选择率
+target_update_iter = 10
+batch_size = 32
+echop = 150
+save_dir = '../saved_models'
+model_path = 'ConvdqnNetWork_game2048_v1.ckt'
